@@ -1,6 +1,6 @@
 # Making the installer in Linux
 
-* Supported version: 0.8
+* Supported version: 0.9.5
 
 While you don't need a fresh install of macOS to use OpenCore, some users prefer having a fresh slate with their boot manager upgrades.
 
@@ -16,7 +16,7 @@ Now to start, first cd into [macrecovery's folder](https://github.com/acidanther
 
 ```sh
 # Adjust below command to the correct folder
-cd ~/Downloads/OpenCore-0/Utilities/macrecovery/
+cd /Path/To/Downloaded/Folder/OpenCore-0.9.5-REALEASE/Utilities/macrecovery/
 ```
 
 Next, run one of the following commands depending on the OS you'd like to boot:
@@ -75,7 +75,7 @@ if you prefer to do the entire process manually skip to the manual installation.
 
    1. run 
    ```
-   curl -o ocflashdrive.sh https://raw.githubusercontent.com/Broly1/ocflashdrive/main/ocflashdrive.sh && chmod +x ocflashdrive.sh && ./ocflashdrive.sh
+   curl -o ocflashdrive.sh https://raw.githubusercontent.com/Tiago-Egas/ocflashdrive_tiago/main/ocflashdrive.sh && chmod +x ocflashdrive.sh && ./ocflashdrive.sh
    ```  
    or manually download it a paste it inside `/macrecovery/` directory and type `./ocflashdrive.sh`
    
